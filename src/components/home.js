@@ -15,6 +15,8 @@ export default function home() {
     <Link className="navbar-brand" to="/scatterplot">scatterplot</Link><br></br>
     <Link className="navbar-brand" to="/Sunburst">Sunburst</Link><br></br>
     <Link className="navbar-brand" to="/Treemap">Treemap</Link><br></br>
+    <Link className="navbar-brand" to="/barstack">barstack</Link><br></br>
+    <Link className="navbar-brand" to="/stream">stream</Link><br></br>
     <br></br><br></br><br></br>
     <Link className="navbar-brand" to="/face_reco">face_reco</Link><br></br>
     </>

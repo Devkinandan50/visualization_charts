@@ -13,6 +13,8 @@ import Radar from './components/radar/Radar';
 import Scatterplot from './components/scatterplot/Scatterplot';
 import Sunburst from './components/sunburst/Sunburst';
 import Treemap from './components/treemap/Treemap';
+import Barstack from './components/BarStack/Barstack';
+import Stream from './components/stream/Stream';
 import Face_reco from './components/face_reco/Face';
 
 
@@ -52,6 +54,12 @@ function App() {
               </Route>
               <Route exact path="/Treemap">
                 <Treemap />
+              </Route>
+              <Route exact path="/barstack">
+                <Barstack />
+              </Route>
+              <Route exact path="/stream">
+                <Stream />
               </Route>
               <Route exact path="/face_reco">
                 <Face_reco />
